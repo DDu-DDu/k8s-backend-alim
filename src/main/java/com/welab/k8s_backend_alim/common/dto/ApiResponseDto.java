@@ -1,4 +1,4 @@
-package com.welab.k8s_backend_alim.api.common.dto;
+package com.welab.k8s_backend_alim.common.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

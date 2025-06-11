@@ -2,10 +2,10 @@ package com.welab.k8s_backend_alim.advice;
 
 
 import com.welab.k8s_backend_alim.advice.parameter.ParameterErrorDto;
-import com.welab.k8s_backend_alim.api.common.dto.ApiResponseDto;
-import com.welab.k8s_backend_alim.api.common.exception.BadParameter;
-import com.welab.k8s_backend_alim.api.common.exception.ClientError;
-import com.welab.k8s_backend_alim.api.common.exception.NotFound;
+import com.welab.k8s_backend_alim.common.dto.ApiResponseDto;
+import com.welab.k8s_backend_alim.common.exception.BadParameter;
+import com.welab.k8s_backend_alim.common.exception.ClientError;
+import com.welab.k8s_backend_alim.common.exception.NotFound;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpStatus;

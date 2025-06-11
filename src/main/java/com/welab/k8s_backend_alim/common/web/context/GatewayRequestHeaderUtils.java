@@ -1,6 +1,6 @@
-package com.welab.k8s_backend_alim.api.common.web.context;
+package com.welab.k8s_backend_alim.common.web.context;
 
-import com.welab.k8s_api_gateway.api.common.exception.NotFound;
+import com.welab.k8s_backend_alim.common.exception.NotFound;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 

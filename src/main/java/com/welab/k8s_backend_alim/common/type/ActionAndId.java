@@ -1,4 +1,4 @@
-package com.welab.k8s_backend_alim.api.common.type;
+package com.welab.k8s_backend_alim.common.type;
 
 import lombok.Getter;
 import lombok.Setter;
