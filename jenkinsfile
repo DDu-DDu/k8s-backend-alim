@@ -27,10 +27,10 @@ pipeline {
     }
 
     environment {
-        GIT_URL = "https://github.com/solarhc/kube-backend-alim.git"
+        GIT_URL = "https://github.com/DDu-DDu/k8s-backend-alim.git"
         GITHUB_CREDENTIAL = "github-token"
         ARTIFACTS = "build/libs/**"
-        DOCKER_REGISTRY = "solarhc"
+        DOCKER_REGISTRY = "ddudocker"
         DOCKERHUB_CREDENTIAL = 'dockerhub-token'
     }
 
